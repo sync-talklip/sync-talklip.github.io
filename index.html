@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="SyncTalklip">
-  <meta property="og:title" content="SyncTalklip"/>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">    
-  
+  <meta property="og:title" content="SyncTalklip" />
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+
   <title>SyncTalklip</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
@@ -37,29 +37,41 @@
       <div class="container">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-              <h1 id="co-speech-modalities" class="title is-1 publication-title">SyncTalklip</h1>
-              <!-- <h1 class="title is-1 publication-title">with Self-Supervised Speech Discrete Units</h1> -->
+            <h1 id="co-speech-modalities" class="title is-1 publication-title">SyncTalklip</h1>
+            <!-- <h1 class="title is-1 publication-title">with Self-Supervised Speech Discrete Units</h1> -->
           </div>
         </div>
       </div>
     </div>
   </section>
 
-	  
+
   <section class="section hero is-light">
     <div class="container is-max-desktop">
       <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-            <h2 class="title is-3">Abstract</h2>
-            <div class="content has-text-justified">
-                <p>
-                  Talking Face Generation (TFG) reconstructs facial motions concerning lips given speech input, which aims to generate high-quality, synchronized, and lip-readable videos. Previous efforts have achieved success in generating quality and synchronization, and recently, there has been an increasing focus on the importance of intelligibility. Despite these efforts, there remains a challenge in achieving a balance among quality, synchronization, and intelligibility, often resulting in trade-offs that compromise one aspect in favor of another. In light of this, we propose SyncTalklip, a novel dual-tower framework designed to overcome the challenges of synchronization while improving lip-reading performance. To enhance the performance of SyncTalklip in both synchronization and intelligibility, we design AV-SyncNet, a pretrained multi-task model, aiming to achieve a dual-focus on synchronization and intelligibility. Moreover, we propose a novel cross-modal contrastive learning bringing audio and video closer to enhance synchronization. Experimental results demonstrate that SyncTalklip achieves State-of-the-art performance in quality, intelligibility, and synchronization. Furthermore, extensive experiments have demonstrated our model's generalizability across domains.
-                </p>
-                <p>
-                  Note: The code will be released after published.
-                </p>
-            </div>
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Talking Face Generation (TFG) reconstructs facial motions concerning lips given speech input, which aims
+              to generate high-quality, synchronized, and lip-readable videos. Previous efforts have achieved success in
+              generating quality and synchronization, and recently, there has been an increasing focus on the importance
+              of intelligibility. Despite these efforts, there remains a challenge in achieving a balance among quality,
+              synchronization, and intelligibility, often resulting in trade-offs that compromise one aspect in favor of
+              another. In light of this, we propose SyncTalklip, a novel dual-tower framework designed to overcome the
+              challenges of synchronization while improving lip-reading performance. To enhance the performance of
+              SyncTalklip in both synchronization and intelligibility, we design AV-SyncNet, a pretrained multi-task
+              model, aiming to achieve a dual-focus on synchronization and intelligibility. Moreover, we propose a novel
+              cross-modal contrastive learning bringing audio and video closer to enhance synchronization. Experimental
+              results demonstrate that SyncTalklip achieves State-of-the-art performance in quality, intelligibility,
+              and synchronization. Furthermore, extensive experiments have demonstrated our model's generalizability
+              across domains.
+            </p>
+            <p>
+              Note: The code will be released after published.
+            </p>
+          </div>
         </div>
       </div>
       <!--/ Abstract. -->
@@ -68,34 +80,43 @@
 
 
   <html lang="en">
-    <head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .image-container {
-            width: 100%; /* 图片容器占满整个父元素的宽度 */
-            margin-top: 25px; /* 图片向下移动20像素 */
-            text-align: center; /* 如果图片未能填充容器，将其在容器中居中 */
-        }
-        .image-container img {
-            width: 40%; /* 图片宽度占满整个容器 */
-            height: auto; /* 图片高度自动调整以保持纵横比 */
-        }
+      .image-container {
+        width: 100%;
+        /* 图片容器占满整个父元素的宽度 */
+        margin-top: 25px;
+        /* 图片向下移动20像素 */
+        text-align: center;
+        /* 如果图片未能填充容器，将其在容器中居中 */
+      }
+
+      .image-container img {
+        width: 40%;
+        /* 图片宽度占满整个容器 */
+        height: auto;
+        /* 图片高度自动调整以保持纵横比 */
+      }
     </style>
-    </head>
-    <body>
-    
+  </head>
+
+  <body>
+
     <div class="text-content">
-        <!-- 这里是您页面上的文本内容 -->
+      <!-- 这里是您页面上的文本内容 -->
     </div>
-    
+
     <div class="image-container">
-        <!-- 图片的路径应替换为您的图片实际路径 -->
-        <img src="Supplementary_Material/MM.png" alt="图">
+      <!-- 图片的路径应替换为您的图片实际路径 -->
+      <img src="Supplementary_Material/MM.png" alt="图">
     </div>
-    
-    </body>
-    </html>
+
+  </body>
+
+  </html>
 
 
 
@@ -118,214 +139,344 @@
 
 
 
-    <!-- Table of Contents -->
+  <!-- Table of Contents -->
 
   <section class="hero"><!-- 开始一个带有"hero"类的section元素，用于创建主要的内容区块 -->
-    <div class="hero-body"><!-- 内部的div元素，用于包裹"hero"区块的主体内容 --> 
-        <div class="container"><!-- 另一个div元素，带有"container"类，可能是为了布局或样式而使用的 -->
-          <h1 class="title is-3">SyncTalklip</h1><!-- 另一个div元素，带有"container"类，可能是为了布局或样式而使用的 -->
-            <li><a href="#other_model">Comparison of SyncTalklip with other models</a></li><!-- 链接到"#Mesh"部分，内容为"A.4 Mesh" -->
-            <li><a href="#other_method">Ablation and Extension of SyncTalklip</a></li>
-          </ul>
-        </div>
+    <div class="hero-body"><!-- 内部的div元素，用于包裹"hero"区块的主体内容 -->
+      <div class="container"><!-- 另一个div元素，带有"container"类，可能是为了布局或样式而使用的 -->
+        <h1 class="title is-3">SyncTalklip</h1><!-- 另一个div元素，带有"container"类，可能是为了布局或样式而使用的 -->
+        <li><a href="#other_model">Comparison of SyncTalklip with other models</a></li>
+        <!-- 链接到"#Mesh"部分，内容为"A.4 Mesh" -->
+        <li><a href="#other_method">Ablation and Extension of SyncTalklip</a></li>
+        <li><a href="#long_real_world">Long Real-world Scenarios</a></li>
+        <li><a href="#face_former">Faceformer</a></li>
+        </ul>
+      </div>
     </div>
   </section>
 
 
   <section class="hero"><!-- 开始一个带有"hero"类的区块，通常用于页面顶部的主要内容展示 -->
-      <div class="hero-body"><!-- 包裹"hero"区块的主体内容 -->
-          <div class="container"><!-- 定义一个容器，用于布局或样式控制 -->
-          <h1 id="other_model" class="title is-3">Comparison of SyncTalklip with other models</h1>
-              <div class="grid-container"><!-- 定义表格的第一行，用于放置表头 --> 
-                  <table >
-                      <tr >
-                        <th>GroundTruth</th>
-                        <th>Wav2Lip</th><!-- 定义表头单元格，内容为"Driving Audio" -->
-                        <th>TalkLip</th>
-                        <th>SyncTalklip</th>
+    <div class="hero-body"><!-- 包裹"hero"区块的主体内容 -->
+      <div class="container"><!-- 定义一个容器，用于布局或样式控制 -->
+        <h1 id="other_model" class="title is-3">Comparison of SyncTalklip with other models</h1>
+        <div class="grid-container"><!-- 定义表格的第一行，用于放置表头 -->
+          <table>
+            <tr>
+              <th>GroundTruth</th>
+              <th>Wav2Lip</th><!-- 定义表头单元格，内容为"Driving Audio" -->
+              <th>TalkLip</th>
+              <th>SyncTalklip</th>
+            </tr>
 
-                      </tr>
+            <tr><!-- 定义表格的第二行，用于放置数据 -->
+              <th style=" vertical-align:middle;"><!-- 定义表头单元格，并设置垂直对齐方式为居中 -->
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Groundtruth/00008.mp4">
+                </video>
+                <!-- 在单元格中嵌入一个带有控制条的视频，视频宽度设置为200像素，视频源文件路径为"Supplementary_Material/TalkingHead/sample1/GT.mp4" -->
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Wav2lip/00008.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Talklip/00008.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/SyncTalklip/6334149478615670679_00008.mp4">
+                </video>
+              </th>
+            </tr>
 
-                      <tr ><!-- 定义表格的第二行，用于放置数据 --> 
-                          <th style=" vertical-align:middle;"><!-- 定义表头单元格，并设置垂直对齐方式为居中 -->
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/Groundtruth/00008.mp4"></video> <!-- 在单元格中嵌入一个带有控制条的视频，视频宽度设置为200像素，视频源文件路径为"Supplementary_Material/TalkingHead/sample1/GT.mp4" -->
-                          </th>
-                          <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/Wav2lip/00008.mp4"></video>
-                          </th>
-                          <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/Talklip/00008.mp4"></video>
-                          </th>
-                          <th style=" vertical-align:middle;">
-                            <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip/6334149478615670679_00008.mp4"></video>
-                        </th>
-                      </tr>
+            <tr>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Groundtruth/00009.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Wav2lip/00009.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Talklip/00009.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/SyncTalklip/6332804294858562278_00009.mp4">
+                </video>
+              </th>
+            </tr>
 
-                      <tr >
-                          <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/Groundtruth/00009.mp4"></video>
-                          </th>
-                          <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/Wav2lip/00009.mp4"></video>
-                          </th>
-                          <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/Talklip/00009.mp4"></video>
-                          </th>
-                          <th style=" vertical-align:middle;">
-                            <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip/6332804294858562278_00009.mp4"></video>
-                        </th>
-                      </tr>
+            <tr>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Groundtruth/00025.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Wav2lip/00025.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Talklip/00025.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/SyncTalklip/6331733559511729306_00025.mp4">
+                </video>
+              </th>
+            </tr>
 
-                      <tr >
-                          <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/Groundtruth/00025.mp4"></video>
-                          </th>
-                          <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/Wav2lip/00025.mp4"></video>
-                          </th>
-                          <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/Talklip/00025.mp4"></video>
-                          </th>
-                          <th style=" vertical-align:middle;">
-                            <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip/6331733559511729306_00025.mp4"></video>
-                        </th>
-                      </tr>
+            <tr>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Groundtruth/00011.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Wav2lip/00011.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Talklip/00011.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/SyncTalklip/6332491191742745853_00011.mp4">
+                </video>
+              </th>
+            </tr>
 
-                      <tr >
-                          <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/Groundtruth/00011.mp4"></video>
-                          </th>
-                          <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/Wav2lip/00011.mp4"></video>
-                          </th>
-                          <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/Talklip/00011.mp4"></video>
-                          </th>
-                          <th style=" vertical-align:middle;">
-                            <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip/6332491191742745853_00011.mp4"></video>
-                        </th>
-                      </tr>
-
-                      <tr >
-                        <th style=" vertical-align:middle;">
-                            <video controls style="width: 200px;"><source src="Supplementary_Material/Groundtruth/00012.mp4"></video>
-                        </th>
-                        <th style=" vertical-align:middle;">
-                            <video controls style="width: 200px;"><source src="Supplementary_Material/Wav2lip/00012.mp4"></video>
-                        </th>
-                        <th style=" vertical-align:middle;">
-                            <video controls style="width: 200px;"><source src="Supplementary_Material/Talklip/00012.mp4"></video>
-                        </th>
-                        <th style=" vertical-align:middle;">
-                          <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip/6333175380032936690_00012.mp4"></video>
-                      </th>
-                    </tr>
-                  </table>
-
-
-            
-              </div>
-              <br><!--换行-->
-
-
-
-              <div class="container"><!-- 定义一个容器，用于布局或样式控制 -->
-                <h1 id="other_method" class="title is-3">Ablation and Extension of SyncTalklip</h1>
-                    <div class="grid-container"><!-- 定义表格的第一行，用于放置表头 --> 
-                        <table >
-                            <tr >
-                              <th>w/o sync</th><!--nosync-->
-                              <th>w/o lipreading</th><!-- wav2lip -->
-                              <th>conv</th>
-                              <th>freeze</th>
-      
-                            </tr>
-      
-                            <tr ><!-- 定义表格的第二行，用于放置数据 --> 
-                                <th style=" vertical-align:middle;"><!-- 定义表头单元格，并设置垂直对齐方式为居中 -->
-                                    <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip_nosync/00008.mp4"></video> <!-- 在单元格中嵌入一个带有控制条的视频，视频宽度设置为200像素，视频源文件路径为"Supplementary_Material/TalkingHead/sample1/GT.mp4" -->
-                                </th>
-                                <th style=" vertical-align:middle;">
-                                    <video controls style="width: 200px;"><source src="Supplementary_Material/Wav2lip/00008.mp4"></video>
-                                </th>
-                                <th style=" vertical-align:middle;">
-                                    <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip(conv)/00008.mp4"></video>
-                                </th>
-                                <th style=" vertical-align:middle;">
-                                  <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip_freeze/00008.mp4"></video>
-                              </th>
-                            </tr>
-      
-                            <tr >
-                              <th style=" vertical-align:middle;">
-                                  <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip_nosync/00009.mp4"></video> 
-                              </th>
-                              <th style=" vertical-align:middle;">
-                                  <video controls style="width: 200px;"><source src="Supplementary_Material/Wav2lip/00009.mp4"></video>
-                              </th>
-                              <th style=" vertical-align:middle;">
-                                  <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip(conv)/00009.mp4"></video>
-                              </th>
-                              <th style=" vertical-align:middle;">
-                                <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip_freeze/00009.mp4"></video>
-                              </th>
-                            </tr>
-      
-                          <tr >
-                            <th style=" vertical-align:middle;">
-                                <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip_nosync/00011.mp4"></video> 
-                            </th>
-                            <th style=" vertical-align:middle;">
-                                <video controls style="width: 200px;"><source src="Supplementary_Material/Wav2lip/00011.mp4"></video>
-                            </th>
-                            <th style=" vertical-align:middle;">
-                                <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip(conv)/00011.mp4"></video>
-                            </th>
-                            <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip_freeze/00011.mp4"></video>
-                            </th>
-                          </tr>
-      
-                          <tr >
-                            <th style=" vertical-align:middle;">
-                                <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip_nosync/00012.mp4"></video> 
-                            </th>
-                            <th style=" vertical-align:middle;">
-                                <video controls style="width: 200px;"><source src="Supplementary_Material/Wav2lip/00012.mp4"></video>
-                            </th>
-                            <th style=" vertical-align:middle;">
-                                <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip(conv)/00012.mp4"></video>
-                            </th>
-                            <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip_freeze/00012.mp4"></video>
-                            </th>
-                          </tr>
-      
-                          <tr >
-                            <th style=" vertical-align:middle;">
-                                <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip_nosync/00025.mp4"></video> 
-                            </th>
-                            <th style=" vertical-align:middle;">
-                                <video controls style="width: 200px;"><source src="Supplementary_Material/Wav2lip/00025.mp4"></video>
-                            </th>
-                            <th style=" vertical-align:middle;">
-                                <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip(conv)/00025.mp4"></video>
-                            </th>
-                            <th style=" vertical-align:middle;">
-                              <video controls style="width: 200px;"><source src="Supplementary_Material/SyncTalklip_freeze/00025.mp4"></video>
-                            </th>
-                          </tr>
-                        </table>
-      
-      
-                  
-                    </div>
-                    <br><!--换行-->
+            <tr>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Groundtruth/00012.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Wav2lip/00012.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/Talklip/00012.mp4">
+                </video>
+              </th>
+              <th style=" vertical-align:middle;">
+                <video controls style="width: 200px;">
+                  <source src="Supplementary_Material/SyncTalklip/6333175380032936690_00012.mp4">
+                </video>
+              </th>
+            </tr>
+          </table>
 
 
 
+        </div>
+        <br><!--换行-->
 
-      </div>
+        <div class="container"><!-- 定义一个容器，用于布局或样式控制 -->
+          <h1 id="other_method" class="title is-3">Ablation and Extension of SyncTalklip</h1>
+          <div class="grid-container"><!-- 定义表格的第一行，用于放置表头 -->
+            <table>
+              <tr>
+                <th>w/o sync</th><!--nosync-->
+                <th>w/o lipreading</th><!-- wav2lip -->
+                <th>conv</th>
+                <th>freeze</th>
+
+              </tr>
+
+              <tr><!-- 定义表格的第二行，用于放置数据 -->
+                <th style=" vertical-align:middle;"><!-- 定义表头单元格，并设置垂直对齐方式为居中 -->
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip_nosync/00008.mp4">
+                  </video>
+                  <!-- 在单元格中嵌入一个带有控制条的视频，视频宽度设置为200像素，视频源文件路径为"Supplementary_Material/TalkingHead/sample1/GT.mp4" -->
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/Wav2lip/00008.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip(conv)/00008.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip_freeze/00008.mp4">
+                  </video>
+                </th>
+              </tr>
+
+              <tr>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip_nosync/00009.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/Wav2lip/00009.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip(conv)/00009.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip_freeze/00009.mp4">
+                  </video>
+                </th>
+              </tr>
+
+              <tr>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip_nosync/00011.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/Wav2lip/00011.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip(conv)/00011.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip_freeze/00011.mp4">
+                  </video>
+                </th>
+              </tr>
+
+              <tr>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip_nosync/00012.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/Wav2lip/00012.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip(conv)/00012.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip_freeze/00012.mp4">
+                  </video>
+                </th>
+              </tr>
+
+              <tr>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip_nosync/00025.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/Wav2lip/00025.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip(conv)/00025.mp4">
+                  </video>
+                </th>
+                <th style=" vertical-align:middle;">
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material/SyncTalklip_freeze/00025.mp4">
+                  </video>
+                </th>
+              </tr>
+            </table>
+
+
+
+          </div>
+          <br><!--换行-->
+
+
+        </div>
+        <div class="container"><!-- 定义一个容器，用于布局或样式控制 -->
+          <h1 id="long_real_world" class="title is-3">Long Real-world Scenarios</h1>
+          <div class="grid-container"><!-- 定义表格的第一行，用于放置表头 -->
+            <table>
+              <tr>
+                <th>Sample 1</th>
+                <th>Sample 2</th>
+              </tr>
+              <tr><!-- 定义表格的第二行，用于放置数据 -->
+                <th style=" vertical-align:middle;"><!-- 定义表头单元格，并设置垂直对齐方式为居中 -->
+                  <video controls style="width: 360px;">
+                    <source src="Supplementary_Material\LongRealWorld\000001.mp4">
+                  </video>
+                  <!-- 在单元格中嵌入一个带有控制条的视频，视频宽度设置为200像素，视频源文件路径为"Supplementary_Material/TalkingHead/sample1/GT.mp4" -->
+                </th>
+                <th style=" vertical-align:middle;"><!-- 定义表头单元格，并设置垂直对齐方式为居中 -->
+                  <video controls style="width: 360px;">
+                    <source src="Supplementary_Material\LongRealWorld\000002.mp4">
+                  </video>
+                  <!-- 在单元格中嵌入一个带有控制条的视频，视频宽度设置为200像素，视频源文件路径为"Supplementary_Material/TalkingHead/sample1/GT.mp4" -->
+                </th>
+              </tr>
+            </table>
+          </div>
+          <br><!--换行-->
+        </div>
+        <div class="container"><!-- 定义一个容器，用于布局或样式控制 -->
+          <h1 id="face_former" class="title is-3">Faceformer</h1>
+          <div class="grid-container"><!-- 定义表格的第一行，用于放置表头 -->
+            <table>
+              <tr>
+                <th>FaceTalk 1</th>
+                <th>FaceTalk 2</th>
+              </tr>
+              <tr><!-- 定义表格的第二行，用于放置数据 -->
+                <th style=" vertical-align:middle;"><!-- 定义表头单元格，并设置垂直对齐方式为居中 -->
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material\Faceformer\00002_FaceTalk_170809_00138_TA_condition_FaceTalk_170725_00137_TA_audio.mp4">
+                  </video>
+                  <!-- 在单元格中嵌入一个带有控制条的视频，视频宽度设置为200像素，视频源文件路径为"Supplementary_Material/TalkingHead/sample1/GT.mp4" -->
+                </th>
+                <th style=" vertical-align:middle;"><!-- 定义表头单元格，并设置垂直对齐方式为居中 -->
+                  <video controls style="width: 200px;">
+                    <source src="Supplementary_Material\Faceformer\00034_FaceTalk_170809_00138_TA_condition_FaceTalk_170725_00137_TA_audio.mp4">
+                  </video>
+                  <!-- 在单元格中嵌入一个带有控制条的视频，视频宽度设置为200像素，视频源文件路径为"Supplementary_Material/TalkingHead/sample1/GT.mp4" -->
+                </th>
+              </tr>
+            </table>
+          </div>
+          <br><!--换行-->
+        </div>
   </section>
-
-
